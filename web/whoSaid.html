@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/whoSaid.css">
+    <title>whoSaid?</title>
+</head>
+<body>
+    <section id="whosaid">
+        <h1 id="whosaidh1">who said?</h1>
+        <form>
+            <div>
+                <label for="numn">Number of players</label>
+                <input type="number" id="numi" name="number" min="3">
+                <div id="btnsdiv1">
+                    <button id ="btnn">Submit</button>
+                    <button id="btnr">Reset</button>
+                </div>
+            </div>
+            <div>
+                <label id="txtil" for="txti">Message</label>
+                <textarea id="txti" name="message"></textarea>
+                <button id="btni">Submit</button>
+            </div>
+        </form>
+        <div id="result">
+            <div id="output"></div>
+            <button id="show">Show</button>
+        </div>
+        <script src="scripts/whosaid.js"></script>
+    </section>
+    <section id="howtoplays">
+        <h2>how to play?</h2>
+        <p>Everybody can write what they want anonymously without being scared ... and have fun guessing who said what!</p>
+        <p>First, you need to determine the number of players and write a message. Then, you can see the messages and guess who wrote them.</p>
+    </section>
+</body>
+</html>

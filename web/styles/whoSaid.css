@@ -1,0 +1,72 @@
+#whosaidh1{
+    text-align: center;
+}
+
+form *{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border:#034159 2px solid;
+    color: white;
+    border-radius: 10px;
+}
+
+form div{
+    padding: 10px;
+}
+
+#btnsdiv1 *{
+    display: inline;
+}
+
+input[type="number"] {
+  min-width: 50px; 
+  max-width: 200px; 
+  width: 100%; 
+}
+
+textarea {
+    width: 100%;
+    min-height: 50px; 
+    max-height: 300px; 
+    overflow-y: auto; 
+}
+
+#result{
+    text-align: center;
+    margin: 5vh auto;
+    width: 70%;
+    background-color: #034159;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#output{
+  font-size: 0.8rem;
+    text-align: center;
+    margin: 10px auto;
+    width: 90%;
+    background-color: #034159;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+#howtoplays{
+    text-align: center;
+    margin: 5vh auto;
+    width: 70%;
+    background-color: #034159;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
